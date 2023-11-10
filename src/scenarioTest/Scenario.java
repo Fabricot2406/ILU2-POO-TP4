@@ -2,6 +2,8 @@ package scenarioTest;
 
 import personnages.Gaulois;
 import villagegaulois.Etal;
+import produit.Sanglier;
+import produit.Poisson;
 
 public class Scenario {
 
@@ -30,7 +32,7 @@ public class Scenario {
 		Poisson poisson1 = new Poisson("lundi");
 		Poisson[] poissons = { poisson1 };
 
-		village.installerVendeur(etalSanglierAsterix, asterix, sangliersAsterix, 10);
+		/**village.installerVendeur(etalSanglierAsterix, asterix, sangliersAsterix, 10);
 		village.installerVendeur(etalSanglierObelix, obelix, sangliersObelix, 8);
 		village.installerVendeur(etalPoisson, ordralfabetix, poissons, 5);
 
@@ -42,7 +44,7 @@ public class Scenario {
 			System.out.println(depense[i]);
 		}
 
-		System.out.println(village);
+		System.out.println(village);*/
 
 	}
 
